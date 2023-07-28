@@ -2,12 +2,11 @@
     width: 90%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-around;
 }
 
 @media screen and (max-width:360px) {
     .formcontato__contacto {
         width: 95%;
-        display: flex;
-        flex-wrap: wrap;
     }
 }
