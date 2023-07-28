@@ -7,25 +7,21 @@
     transform: scale(1.05);
 }
 
-.experience__button--repo {
-    width: 6rem;
+.experience__button--repo, .experience__button--demo{
+    width: 6.5rem;
     height: 3rem;
     color: #2a7ae4;
     background-color: #FFFFFF;
     border-color: #2a7ae4;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 1rem;
+    border-radius: 20px;
 }
 
 .experience__button--demo {
-    width: 6rem;
-    height: 3rem;
     color: #FFFFFF;
     background-color: #2a7ae4;
-    border-color: #2a7ae4;
-    font-size: 1rem;
-    font-weight: 400;
 }
 
 @media screen and (max-width:360px) {

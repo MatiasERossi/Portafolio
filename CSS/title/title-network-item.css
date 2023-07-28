@@ -3,6 +3,7 @@
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 3rem;
+    transition: 50ms;
 }
 
 .title-network-item--act{
