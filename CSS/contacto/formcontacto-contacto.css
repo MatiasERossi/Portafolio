@@ -7,6 +7,7 @@
 @media screen and (max-width:360px) {
     .formcontato__contacto {
         width: 95%;
-        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
