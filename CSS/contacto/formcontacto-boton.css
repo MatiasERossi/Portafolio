@@ -1,0 +1,23 @@
+.formcontato__boton {
+    width: 8rem;
+    height: 3rem;
+    background: #2a7ae4;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+.formcontato__boton:hover {
+    cursor: pointer;
+    border: 2px solid #064ead;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:768px) {
+    .formcontato__boton {
+        margin-top: 3rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}

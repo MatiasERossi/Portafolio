@@ -1,0 +1,15 @@
+.formcontato__subtext {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.formcontacto__subtext--first {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:360px) {
+    .formcontato__subtext {
+        padding-right: 1rem;
+    }   
+}

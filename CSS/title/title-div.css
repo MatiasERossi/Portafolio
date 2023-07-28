@@ -1,0 +1,12 @@
+.title__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:620px) {
+    .title__div {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }   
+}

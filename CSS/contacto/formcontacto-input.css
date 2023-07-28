@@ -1,0 +1,18 @@
+.formcontato__input {
+    height: 2rem;
+    border: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.formcontato__input:active {
+    outline: none;
+}
+
+@media screen and (max-width:768px) {
+    .formcontato__input {
+        margin-bottom: 2.5rem;
+        height: 3.5rem;
+    }
+}

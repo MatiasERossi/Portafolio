@@ -1,0 +1,10 @@
+.academic__container__datos {
+    background: var(--color-de-fondob);
+    height: 105px;
+}
+
+@media screen and (max-width:360px) {
+    .academic__container__datos {
+        text-align: start;
+    }
+}

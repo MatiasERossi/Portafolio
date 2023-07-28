@@ -1,0 +1,9 @@
+.formcontacto__datos {
+    height: 25%;
+}
+
+@media screen and (max-width:768px) {
+    .formcontacto__datos{
+        height: 20%;
+    }
+}

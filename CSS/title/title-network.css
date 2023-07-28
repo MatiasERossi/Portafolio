@@ -1,0 +1,11 @@
+.title__network {
+    display: flex;
+    padding-left: 0;
+}
+
+@media screen and (max-width:360px) {
+    .title__network {
+        justify-content: space-between;
+        margin-top: 1rem;
+    }   
+}

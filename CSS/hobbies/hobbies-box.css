@@ -1,0 +1,21 @@
+.hobbies__box {
+    width: 170px;
+    height: 170px;
+    background-color: #FFFFFF;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .hobbies__box {
+        width: 220px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .hobbies__box {
+        width: 156px;
+        height: 118px;
+    }   
+}

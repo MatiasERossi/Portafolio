@@ -1,0 +1,39 @@
+.experience__button {
+    margin-right: 1rem;
+}
+
+.experience__button--repo:hover, .experience__button--demo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.experience__button--repo {
+    width: 6rem;
+    height: 3rem;
+    color: #2a7ae4;
+    background-color: #FFFFFF;
+    border-color: #2a7ae4;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.experience__button--demo {
+    width: 6rem;
+    height: 3rem;
+    color: #FFFFFF;
+    background-color: #2a7ae4;
+    border-color: #2a7ae4;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width:360px) {
+    .experience__button--demo {
+        width: 7rem;
+    }
+
+    .experience__button--repo {
+        width: 7rem;
+    }
+}

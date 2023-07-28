@@ -1,0 +1,11 @@
+.title {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:360px) {
+    .title {
+        width: 95%;
+    }
+}

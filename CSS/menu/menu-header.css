@@ -1,0 +1,5 @@
+.menu__header {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+}

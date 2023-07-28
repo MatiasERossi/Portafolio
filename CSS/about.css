@@ -1,0 +1,9 @@
+.about {
+    width: 100%;
+    background: var(--color-de-fondob);
+}
+
+.las {
+    color: #2a7ae4;
+    font-size: 45px;
+}

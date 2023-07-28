@@ -1,0 +1,13 @@
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
+
+@media screen and (max-width:988px) {
+    .experience__info {
+        padding-left: 0;
+    }
+}

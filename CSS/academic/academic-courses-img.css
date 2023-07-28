@@ -1,0 +1,15 @@
+.academic__courses__img {
+    padding-left: 2.5rem;
+}
+
+.academic__courses__img--utn {
+    width: 192px;
+    padding-top: 3rem;
+}
+
+@media screen and (max-width:768px) {
+    .academic__courses__img {
+        padding-left: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+.title__network__item {
+    padding-right: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.title__network__item:hover {
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:360px) {
+    .title__network__item {
+        padding: 0;
+        font-size: 14px;
+    }
+}

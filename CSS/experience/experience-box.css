@@ -1,0 +1,5 @@
+.experiencie__box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}

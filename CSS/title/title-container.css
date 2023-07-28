@@ -1,0 +1,6 @@
+.title__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 0.4rem;
+}

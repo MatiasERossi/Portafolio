@@ -1,0 +1,12 @@
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:360px) {
+    .formcontato__form {
+        width: 90%;
+    }   
+}

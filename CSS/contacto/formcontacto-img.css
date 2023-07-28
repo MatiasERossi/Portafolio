@@ -1,0 +1,11 @@
+.formcontato__img {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .formcontato__img {
+        display: none;
+    }
+}

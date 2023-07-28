@@ -1,0 +1,12 @@
+.formcontato {
+    width: 100%;
+    background-color: var(--color-de-fondob);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .formcontato {
+        height: 600px;
+    }   
+}

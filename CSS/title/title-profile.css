@@ -1,0 +1,22 @@
+.title__profile {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:768px) {
+
+    .title__profile {
+        width: 15rem;
+        height: 15rem;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .title__profile {
+        order: 0;
+        width: 9rem;
+        height: 12rem;
+    }   
+}

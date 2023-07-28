@@ -1,0 +1,11 @@
+.formcontato__title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+ .formcontato__title {
+    font-size: 1.5rem;
+ }   
+}

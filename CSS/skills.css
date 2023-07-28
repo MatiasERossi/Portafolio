@@ -1,0 +1,12 @@
+.skills {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width:360px) {
+    .skills {
+        width: 95%;
+    }   
+}

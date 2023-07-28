@@ -1,0 +1,17 @@
+.title__bio {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    .title__bio {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .title__bio {
+        font-size: 1.22rem;
+    }   
+}

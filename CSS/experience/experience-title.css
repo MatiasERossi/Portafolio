@@ -1,0 +1,17 @@
+.experience__title {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width:988px) {
+    .experience__title {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:360px){
+    .experience__title {
+        font-size: 1rem;
+    }
+}
