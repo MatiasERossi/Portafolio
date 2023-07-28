@@ -1,0 +1,9 @@
+.formcontato__text{
+    width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .formcontato__text{
+        width: 100%;
+    }
+}

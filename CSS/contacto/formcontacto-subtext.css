@@ -1,11 +1,11 @@
 .formcontato__subtext {
     margin: 0;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1rem;
 }
 
 .formcontacto__subtext--first {
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 @media screen and (max-width:420px) {

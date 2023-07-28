@@ -5,6 +5,12 @@
     justify-content: space-around;
 }
 
+@media screen and (max-width:768px) {
+    .formcontato__contacto {
+        display: block;
+    }
+}
+
 @media screen and (max-width:360px) {
     .formcontato__contacto {
         width: 95%;
