@@ -4,9 +4,3 @@
     height: 75%;
     justify-content: space-around;
 }
-
-@media screen and (max-width:380px) {
-    .formcontato__form {
-        width: 90%;
-    }   
-}
