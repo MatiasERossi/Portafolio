@@ -273,12 +273,15 @@
                     <h3 class="formcontato__subtext formcontacto__subtext--first">¿Quieres contactarme?</h3>
                     <h4 class="formcontacto-subtext">Puedes llenar el formulario y te respondere en la brevedad.</h4>
                 </div>
-                <form class="formcontato__form" name="form">
+                <form class="formcontato__form" action="https://formsubmit.co/08f60951b8d1b2527aed3959fb525e0d" method="POST">
                     <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required maxlength="50" title="Debe tener como maximo 50 caracteres.">
                     <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required title="Ingrese el mail correctamente con el caracter @, seguido de un dominio, seguido de un punto.">
                     <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required maxlength="50" title="El campo no debe estar vacïo ni debe superar los 50 caracteres">
                     <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required maxlength="300" title="El mensaje no puede superar los 300 caracteres"></textarea>
                     <button type="submit" class="formcontato__boton">Enviar mensaje</button>
+                    <input type="hidden" name="_next" value="https://matiaserossi.github.io/Portafolio/">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
                 </form>
             </div>
         </div>
@@ -292,5 +295,7 @@
         </div>
     </section>
     <script src="validacion.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>
